@@ -17,5 +17,5 @@ cal_df['event_duration'] = ((cal_df['end_dt_object'] - cal_df['start_dt_object']
 cal_df.drop(labels=whack_columns, axis='columns', inplace=True)
 cal_df.to_csv(duration_file_name, encoding='utf-8', index=False)
 cal_summary = cal_df.groupby(['Categories'])[['event_duration']].agg('sum')
-cal_summary.to_csv(summary_file_name, encoding='utf-8', index=False)
+cal_summary.to_csv(summary_file_namegit , encoding='utf-8', index=False)
 print(cal_summary)

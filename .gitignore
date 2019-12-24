@@ -1,3 +1,4 @@
 # venv folder
 venv/
+.idea/
 *cal.csv
