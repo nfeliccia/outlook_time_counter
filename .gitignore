@@ -1,4 +1,4 @@
 # venv folder
 venv/
 .idea/
-*cal.csv
+test_cal.csv
